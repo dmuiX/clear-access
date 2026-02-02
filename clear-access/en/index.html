@@ -1,231 +1,242 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Access to all your tools. Clearly managed.</title>
+  <meta name="description" content="Clear, central access to all your tools. One login, clear rules, fast offboarding. No rebuild." />
+
+  <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css" />
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
 
-<!-- Language Toggle -->
-<nav class="lang-toggle" aria-label="Language">
-  <a href="./" class="active">EN</a>
-  <span>·</span>
-  <a href="../de/">DE</a>
-</nav>
+<header class="site-header">
+  <div class="nav">
+    <a class="logo" href="./">
+      <span class="dot"></span>
+      Clear Access
+    </a>
 
-<header class="wrap hero">
-  <h1>Access to all your tools. Clearly managed.</h1>
-  <p class="lead">
-    I set up a clear, central way to access your tools — self-hosted and SaaS.
-    Your team signs in with your existing company login.
-    <strong>No rebuild. No big project.</strong>
-  </p>
-
-  <div class="pill-row" aria-label="Highlights">
-    <span class="pill">One login</span>
-    <span class="pill">Clear access</span>
-    <span class="pill">Fast offboarding</span>
-    <span class="pill">Easy to extend</span>
+    <div class="nav-actions">
+      <a class="btn secondary" href="#about">About</a>
+      <a class="btn secondary" href="#next-step">Contact</a>
+      <div class="lang-switch" aria-label="Language">
+        <a href="./" class="active">EN</a>
+        <a href="../de/">DE</a>
+      </div>
+    </div>
   </div>
 </header>
 
-<main class="wrap">
+<main>
+  <section class="wrap hero">
+    <div class="hero-left">
+      <h1 class="reveal delay-1">Access to all your tools.<br><span>Clearly managed.</span></h1>
+      <div class="card hero-card reveal delay-2">
+        <h2>Does this sound familiar?</h2>
+        <ul class="icon-list">
+          <li><i class="fa-solid fa-circle-xmark"></i><span>Every tool has its own login</span></li>
+          <li><i class="fa-solid fa-circle-xmark"></i><span>Access grew over time and is hard to track</span></li>
+          <li><i class="fa-solid fa-circle-xmark"></i><span>No one is fully sure who still has access to what</span></li>
+          <li><i class="fa-solid fa-circle-xmark"></i><span>Offboarding takes too long and is easy to get wrong</span></li>
+          <li><i class="fa-solid fa-circle-xmark"></i><span>Each new tool adds another exception</span></li>
+        </ul>
+        <p class="callout"><strong>In short:</strong> access to your tools isn’t a clearly defined state.</p>
+      </div>
+    </div>
 
-  <!-- Pain -->
-  <section class="card">
-    <h2>Does this sound familiar?</h2>
-    <ul class="list">
-      <li>Every tool has its own login</li>
-      <li>Access grew over time and is hard to track</li>
-      <li>No one is fully sure who still has access to what</li>
-      <li>Offboarding takes too long and is easy to get wrong</li>
-      <li>Each new tool adds another exception</li>
-    </ul>
+    <div class="hero-right">
+      <p class="lead reveal delay-2">
+        I set up a clear, central way to access your tools — self-hosted and SaaS.
+        Your team signs in with your existing company login.
+        <strong>No rebuild. No big project.</strong>
+      </p>
 
-    <p class="callout">
-      <strong>In short:</strong> access to your tools isn’t a clearly defined state.
-    </p>
-  </section>
+      <div class="cta-row reveal delay-3">
+        <a class="btn primary" href="#next-step"><i class="fa-solid fa-phone"></i>Request a call</a>
+        <a class="btn secondary" href="#principle"><i class="fa-solid fa-diagram-project"></i>How it works</a>
+      </div>
 
-  <!-- What I do -->
-  <section class="card">
-    <h2>What I set up</h2>
-    <p class="muted">
-      I create a clear, central access point. Your tools stay as they are — I standardize the way people get in.
-    </p>
-
-    <ul class="list compact">
-      <li>A single entry point for self-hosted tools</li>
-      <li>One company login across multiple tools</li>
-      <li>Clear rules for who can reach which tool</li>
-      <li>Same login for SaaS tools, when supported</li>
-    </ul>
-  </section>
-
-  <!-- Principle -->
-  <section class="card">
-    <h2>A simple principle</h2>
-    <p class="muted">
-      Access is managed centrally. What happens inside each tool stays inside that tool.
-    </p>
-
-    <!-- Diagram -->
-    <div class="diagram" role="img" aria-label="Network, central access, tools">
-      <svg viewBox="0 0 1040 300" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-            <path d="M0,0 L12,6 L0,12 Z" />
-          </marker>
-        </defs>
-
-        <!-- Optional Network -->
-        <rect class="box box-optional" x="40" y="90" width="260" height="150" rx="14"/>
-        <text class="t-title" x="170" y="125" text-anchor="middle">Network</text>
-        <text class="t-sub" x="170" y="155" text-anchor="middle">known devices</text>
-        <text class="t-note" x="170" y="205" text-anchor="middle">optional</text>
-
-        <!-- Access -->
-        <rect class="box" x="360" y="90" width="320" height="150" rx="14"/>
-        <text class="t-title" x="520" y="125" text-anchor="middle">Central access</text>
-        <text class="t-sub" x="520" y="155" text-anchor="middle">one login, clear rules</text>
-
-        <!-- Tools -->
-        <rect class="box" x="740" y="40" width="260" height="80" rx="14"/>
-        <text class="t-title" x="870" y="90" text-anchor="middle">Self-hosted tools</text>
-
-        <rect class="box" x="740" y="170" width="260" height="90" rx="14"/>
-        <text class="t-title" x="870" y="215" text-anchor="middle">SaaS tools</text>
-
-        <line class="arrow" x1="300" y1="165" x2="360" y2="165" marker-end="url(#arrow)"/>
-        <line class="arrow" x1="680" y1="120" x2="740" y2="90" marker-end="url(#arrow)"/>
-        <line class="arrow" x1="680" y1="210" x2="740" y2="215" marker-end="url(#arrow)"/>
-      </svg>
+      <div class="stack-list reveal delay-4" aria-label="Highlights">
+        <span class="tech-badge"><i class="fa-solid fa-user-shield"></i>One login</span>
+        <span class="tech-badge highlight"><i class="fa-solid fa-layer-group"></i>Clear access</span>
+        <span class="tech-badge"><i class="fa-solid fa-user-slash"></i>Fast offboarding</span>
+        <span class="tech-badge"><i class="fa-solid fa-wand-magic-sparkles"></i>Easy to extend</span>
+      </div>
     </div>
   </section>
 
-  <!-- Fit / No Fit -->
-  <section class="grid2">
-    <section class="card">
-      <h2>Good fit if…</h2>
-      <ul class="list compact">
-        <li>you use several tools (self-hosted and/or SaaS)</li>
-        <li>you want one company login (Microsoft, Google, or on-prem)</li>
-        <li>you want a clear overview of access again</li>
-        <li>you want clarity quickly</li>
+  <section id="what-i-do" class="wrap section">
+    <div class="section-title">
+      <h2>What I set up</h2>
+      <span>Scope</span>
+    </div>
+
+    <div class="card">
+      <p class="muted">
+        I create a clear, central access point. Your tools stay as they are — I standardize the way people get in.
+      </p>
+
+      <ul class="icon-list compact">
+        <li><i class="fa-solid fa-globe"></i><span>A single entry point for self-hosted tools</span></li>
+        <li><i class="fa-solid fa-id-badge"></i><span>One company login across multiple tools</span></li>
+        <li><i class="fa-solid fa-user-shield"></i><span>Clear rules for who can reach which tool</span></li>
+        <li><i class="fa-solid fa-cloud"></i><span>Same login for SaaS tools, when supported</span></li>
       </ul>
-    </section>
-
-    <section class="card">
-      <h2>Not a fit if…</h2>
-      <ul class="list compact">
-        <li>you want to “clean up everything” at once</li>
-        <li>you’re looking for a large IAM program</li>
-        <li>you expect ongoing operations</li>
-      </ul>
-    </section>
+    </div>
   </section>
 
-  <!-- System houses -->
-  <section class="card">
-    <p class="muted">
-      Also useful for <strong>system integrators</strong> who want to give customers clean access —
-      without turning it into an IAM project.
-    </p>
+  <section id="principle" class="wrap section">
+    <div class="section-title">
+      <h2>A simple principle</h2>
+      <span>Access</span>
+    </div>
+
+    <div class="card">
+      <p class="muted">
+        Access is managed centrally. What happens inside each tool stays inside that tool.
+      </p>
+
+      <div class="flow-wrap" role="img" aria-label="Optional network gate, central access, tools">
+        <div class="flow-card">
+          <i class="fa-solid fa-network-wired"></i>
+          <strong>Network gate</strong>
+          <span class="muted small">known devices (optional)</span>
+        </div>
+        <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="flow-card">
+          <i class="fa-solid fa-layer-group"></i>
+          <strong>Central access</strong>
+          <span class="muted small">one login, clear rules</span>
+        </div>
+        <div class="flow-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="flow-card">
+          <i class="fa-solid fa-toolbox"></i>
+          <strong>Tools</strong>
+          <span class="muted small">self-hosted + SaaS</span>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Next step -->
-  <section class="card">
-    <h2>Next step</h2>
-    <p class="muted">
-      A short call is enough to see whether this fits.
-      If yes: a clearly scoped project. If not: an honest “no”.
-    </p>
-  </section>
+  <section id="fit" class="wrap section">
+    <div class="section-title">
+      <h2>Fit</h2>
+      <span>Yes / No</span>
+    </div>
 
-  <!-- Optional tech background -->
-  <section class="card">
-    <details>
-      <summary>Technical background (optional)</summary>
-      <div class="details-body">
-        <p class="muted">
-          I place a central access layer in front of your tools. It decides who can reach which tool.
-          Your applications remain unchanged — only the access point becomes consistent.
-        </p>
-
-        <ul class="list compact">
-          <li><strong>Self-hosted:</strong> one central domain with subdomains as the entry point</li>
-          <li><strong>Login:</strong> your existing company login (Microsoft, Google, or on-prem)</li>
-          <li><strong>SaaS:</strong> same login via standard SSO, if the tool supports it</li>
-          <li><strong>Scope:</strong> I manage “who can reach which tool”; internal roles stay inside each tool</li>
-          <li><strong>Optional:</strong> extra network protection so only known devices can reach the access point</li>
+    <div class="grid2">
+      <section class="card">
+        <h3><i class="fa-solid fa-circle-check"></i> Good fit if…</h3>
+        <ul class="icon-list compact">
+          <li><i class="fa-solid fa-circle-check"></i><span>you use several tools (self-hosted and/or SaaS)</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>you want one company login (Microsoft, Google, or on-prem)</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>you want a clear overview of access again</span></li>
+          <li><i class="fa-solid fa-circle-check"></i><span>you want clarity quickly</span></li>
         </ul>
+      </section>
 
-        <p class="muted small">
-          No migration of users or data. The goal is a clear access state — not a rebuild.
+      <section class="card">
+        <h3><i class="fa-solid fa-circle-xmark"></i> Not a fit if…</h3>
+        <ul class="icon-list compact">
+          <li><i class="fa-solid fa-circle-xmark"></i><span>you want to “clean up everything” at once</span></li>
+          <li><i class="fa-solid fa-circle-xmark"></i><span>you’re looking for a large IAM program</span></li>
+          <li><i class="fa-solid fa-circle-xmark"></i><span>you expect ongoing operations</span></li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <section id="about" class="wrap section">
+    <div class="section-title">
+      <h2>About Me & Demo</h2>
+      <span>Profile</span>
+    </div>
+
+    <div class="about-grid">
+      <div>
+        <div class="profile-card">
+          <img src="../assets/profile.jpg" alt="Daniel" class="profile-pic" />
+          <div>
+            <h3>Hi, I'm Daniel.</h3>
+            <p class="muted">Cloud Engineer & Linux Admin based in Munich.</p>
+          </div>
+        </div>
+
+        <p class="muted">
+          Solid IT knowledge meets genuine passion. With a degree in <strong>Computer Science</strong> and years of
+          experience as a professional <strong>Cloud Engineer & Linux Admin</strong>, there is the technical depth
+          required for stable systems.
+        </p>
+        <p class="muted">
+          The entire tech stack (Authelia, Samba, SWAG) runs in the same way on private infrastructure every day.
+        </p>
+        <p class="muted">
+          Enterprise standards, reduced to efficient, maintainable solutions for small teams.
         </p>
       </div>
-    </details>
+
+      <div class="video-container">
+        <div class="video-placeholder">
+          <i class="fa-solid fa-video"></i>
+          <p><strong>Video Demo (Coming Soon)</strong></p>
+          <p class="small muted">In 2 minutes, the live Authelia SSO login will be shown.</p>
+        </div>
+      </div>
+    </div>
   </section>
-  
-<!-- Technical background -->
-<section class="card">
-  <details>
-    <summary>Technical background (optional)</summary>
 
-    <div class="details-body">
+  <section id="next-step" class="wrap section">
+    <div class="section-title">
+      <h2>Next step</h2>
+      <span>Contact</span>
+    </div>
+
+    <div class="card">
       <p class="muted">
-        I place a small, central access layer in front of your tools.
-        This layer controls who can reach which tool.
-        Your applications themselves remain unchanged.
-      </p>
-
-      <ul class="list compact">
-        <li>
-          <strong>Self-hosted tools:</strong><br>
-          Access runs through one central domain with subdomains.
-          The tools do not need to be modified.
-        </li>
-
-        <li>
-          <strong>Login:</strong><br>
-          Users sign in with your existing company account
-          (Microsoft, Google, or on-prem).
-        </li>
-
-        <li>
-          <strong>SaaS tools:</strong><br>
-          The same login can be used via standard SSO,
-          as long as the tool supports it.
-        </li>
-
-        <li>
-          <strong>Access logic:</strong><br>
-          I define who is allowed to reach which tool.
-          Internal roles and permissions stay inside each application.
-        </li>
-
-        <li>
-          <strong>Optional network layer:</strong><br>
-          Access can be limited to known devices only,
-          before authentication even happens.
-        </li>
-      </ul>
-
-      <p class="muted small">
-        There is no migration of users or data.
-        The goal is a clear access state — not a rebuild or long-term project.
+        A short call is enough to see whether this fits.
+        If yes: a clearly scoped project. If not: an honest “no”.
       </p>
     </div>
-  </details>
-</section>
-  
+  </section>
+
+  <section id="tech" class="wrap section">
+    <div class="section-title">
+      <h2>Technical background</h2>
+      <span>Tools</span>
+    </div>
+
+    <div class="card">
+      <details>
+        <summary>See the technical background</summary>
+        <div class="details-body">
+          <p class="muted">
+            I place a central access layer in front of your tools. It decides who can reach which tool.
+            Your applications remain unchanged — only the access point becomes consistent.
+          </p>
+
+          <ul class="icon-list compact">
+            <li><i class="fa-solid fa-id-badge"></i><span><strong>Identity:</strong> Authelia with OIDC/OAuth2 for SSO</span></li>
+            <li><i class="fa-solid fa-sitemap"></i><span><strong>Directory:</strong> Samba-DC / LDAP / AD, MS Entra ID, Google Workspace</span></li>
+            <li><i class="fa-solid fa-shield-halved"></i><span><strong>Gateway:</strong> SWAG / Nginx reverse proxy + SSL</span></li>
+            <li><i class="fa-solid fa-key"></i><span><strong>MFA:</strong> 2FA across critical tools</span></li>
+            <li><i class="fa-solid fa-user-shield"></i><span><strong>Access rules:</strong> clear role mapping and offboarding</span></li>
+          </ul>
+
+          <p class="muted small">
+            No migration of users or data. The goal is a clear access state — not a rebuild.
+          </p>
+        </div>
+      </details>
+    </div>
+  </section>
 </main>
 
-<footer class="wrap footer">
-  <p class="muted small">© clear-access</p>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Clear Access — central login for self-hosted tools and SaaS.</p>
+  </div>
 </footer>
 
 </body>
