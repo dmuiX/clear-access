@@ -1,0 +1,232 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Access to all your tools. Clearly managed.</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<!-- Language Toggle -->
+<nav class="lang-toggle" aria-label="Language">
+  <a href="/en/" class="active">EN</a>
+  <span>·</span>
+  <a href="/de/">DE</a>
+</nav>
+
+<header class="wrap hero">
+  <h1>Access to all your tools. Clearly managed.</h1>
+  <p class="lead">
+    I set up a clear, central way to access your tools — self-hosted and SaaS.
+    Your team signs in with your existing company login.
+    <strong>No rebuild. No big project.</strong>
+  </p>
+
+  <div class="pill-row" aria-label="Highlights">
+    <span class="pill">One login</span>
+    <span class="pill">Clear access</span>
+    <span class="pill">Fast offboarding</span>
+    <span class="pill">Easy to extend</span>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- Pain -->
+  <section class="card">
+    <h2>Does this sound familiar?</h2>
+    <ul class="list">
+      <li>Every tool has its own login</li>
+      <li>Access grew over time and is hard to track</li>
+      <li>No one is fully sure who still has access to what</li>
+      <li>Offboarding takes too long and is easy to get wrong</li>
+      <li>Each new tool adds another exception</li>
+    </ul>
+
+    <p class="callout">
+      <strong>In short:</strong> access to your tools isn’t a clearly defined state.
+    </p>
+  </section>
+
+  <!-- What I do -->
+  <section class="card">
+    <h2>What I set up</h2>
+    <p class="muted">
+      I create a clear, central access point. Your tools stay as they are — I standardize the way people get in.
+    </p>
+
+    <ul class="list compact">
+      <li>A single entry point for self-hosted tools</li>
+      <li>One company login across multiple tools</li>
+      <li>Clear rules for who can reach which tool</li>
+      <li>Same login for SaaS tools, when supported</li>
+    </ul>
+  </section>
+
+  <!-- Principle -->
+  <section class="card">
+    <h2>A simple principle</h2>
+    <p class="muted">
+      Access is managed centrally. What happens inside each tool stays inside that tool.
+    </p>
+
+    <!-- Diagram -->
+    <div class="diagram" role="img" aria-label="Network, central access, tools">
+      <svg viewBox="0 0 1040 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+            <path d="M0,0 L12,6 L0,12 Z" />
+          </marker>
+        </defs>
+
+        <!-- Optional Network -->
+        <rect class="box box-optional" x="40" y="90" width="260" height="150" rx="14"/>
+        <text class="t-title" x="170" y="125" text-anchor="middle">Network</text>
+        <text class="t-sub" x="170" y="155" text-anchor="middle">known devices</text>
+        <text class="t-note" x="170" y="205" text-anchor="middle">optional</text>
+
+        <!-- Access -->
+        <rect class="box" x="360" y="90" width="320" height="150" rx="14"/>
+        <text class="t-title" x="520" y="125" text-anchor="middle">Central access</text>
+        <text class="t-sub" x="520" y="155" text-anchor="middle">one login, clear rules</text>
+
+        <!-- Tools -->
+        <rect class="box" x="740" y="40" width="260" height="80" rx="14"/>
+        <text class="t-title" x="870" y="90" text-anchor="middle">Self-hosted tools</text>
+
+        <rect class="box" x="740" y="170" width="260" height="90" rx="14"/>
+        <text class="t-title" x="870" y="215" text-anchor="middle">SaaS tools</text>
+
+        <line class="arrow" x1="300" y1="165" x2="360" y2="165" marker-end="url(#arrow)"/>
+        <line class="arrow" x1="680" y1="120" x2="740" y2="90" marker-end="url(#arrow)"/>
+        <line class="arrow" x1="680" y1="210" x2="740" y2="215" marker-end="url(#arrow)"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Fit / No Fit -->
+  <section class="grid2">
+    <section class="card">
+      <h2>Good fit if…</h2>
+      <ul class="list compact">
+        <li>you use several tools (self-hosted and/or SaaS)</li>
+        <li>you want one company login (Microsoft, Google, or on-prem)</li>
+        <li>you want a clear overview of access again</li>
+        <li>you want clarity quickly</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Not a fit if…</h2>
+      <ul class="list compact">
+        <li>you want to “clean up everything” at once</li>
+        <li>you’re looking for a large IAM program</li>
+        <li>you expect ongoing operations</li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- System houses -->
+  <section class="card">
+    <p class="muted">
+      Also useful for <strong>system integrators</strong> who want to give customers clean access —
+      without turning it into an IAM project.
+    </p>
+  </section>
+
+  <!-- Next step -->
+  <section class="card">
+    <h2>Next step</h2>
+    <p class="muted">
+      A short call is enough to see whether this fits.
+      If yes: a clearly scoped project. If not: an honest “no”.
+    </p>
+  </section>
+
+  <!-- Optional tech background -->
+  <section class="card">
+    <details>
+      <summary>Technical background (optional)</summary>
+      <div class="details-body">
+        <p class="muted">
+          I place a central access layer in front of your tools. It decides who can reach which tool.
+          Your applications remain unchanged — only the access point becomes consistent.
+        </p>
+
+        <ul class="list compact">
+          <li><strong>Self-hosted:</strong> one central domain with subdomains as the entry point</li>
+          <li><strong>Login:</strong> your existing company login (Microsoft, Google, or on-prem)</li>
+          <li><strong>SaaS:</strong> same login via standard SSO, if the tool supports it</li>
+          <li><strong>Scope:</strong> I manage “who can reach which tool”; internal roles stay inside each tool</li>
+          <li><strong>Optional:</strong> extra network protection so only known devices can reach the access point</li>
+        </ul>
+
+        <p class="muted small">
+          No migration of users or data. The goal is a clear access state — not a rebuild.
+        </p>
+      </div>
+    </details>
+  </section>
+  
+<!-- Technical background -->
+<section class="card">
+  <details>
+    <summary>Technical background (optional)</summary>
+
+    <div class="details-body">
+      <p class="muted">
+        I place a small, central access layer in front of your tools.
+        This layer controls who can reach which tool.
+        Your applications themselves remain unchanged.
+      </p>
+
+      <ul class="list compact">
+        <li>
+          <strong>Self-hosted tools:</strong><br>
+          Access runs through one central domain with subdomains.
+          The tools do not need to be modified.
+        </li>
+
+        <li>
+          <strong>Login:</strong><br>
+          Users sign in with your existing company account
+          (Microsoft, Google, or on-prem).
+        </li>
+
+        <li>
+          <strong>SaaS tools:</strong><br>
+          The same login can be used via standard SSO,
+          as long as the tool supports it.
+        </li>
+
+        <li>
+          <strong>Access logic:</strong><br>
+          I define who is allowed to reach which tool.
+          Internal roles and permissions stay inside each application.
+        </li>
+
+        <li>
+          <strong>Optional network layer:</strong><br>
+          Access can be limited to known devices only,
+          before authentication even happens.
+        </li>
+      </ul>
+
+      <p class="muted small">
+        There is no migration of users or data.
+        The goal is a clear access state — not a rebuild or long-term project.
+      </p>
+    </div>
+  </details>
+</section>
+  
+</main>
+
+<footer class="wrap footer">
+  <p class="muted small">© clear-access</p>
+</footer>
+
+</body>
+</html>
