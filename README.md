@@ -1,64 +1,64 @@
 # clear-access
 
-**Zugriff auf alle Tools. Klar geregelt.** ✨
+**Access to all your tools. Clearly managed.** ✨
 
-Ich bringe Klarheit in den Zugang zu euren Tools – self-hosted und SaaS.  
-Anmeldung über euren bestehenden Unternehmens‑Login.
+I set up a clear, central way to access your tools — self-hosted and SaaS.  
+Your team signs in with the company account they already use.
 
-**Kein Umbau. Kein Großprojekt.** ✅
+**No rebuild. No big project.** ✅
 
-👉 **Live page:** https://<USERNAME>.github.io/<REPO>/
-
----
-
-## Was das ist
-
-Die meisten Teams haben keinen klaren Zugriffs‑Zustand.
-
-- 🔐 Jedes Tool hat einen eigenen Login  
-- 🧩 Zugriffe sind über die Zeit gewachsen  
-- ❓ Unklar, wer noch Zugriff hat  
-- 🐌 Offboarding ist langsam und fehleranfällig  
-
-**clear-access** fixiert die *Access‑Layer* — nicht die Tools selbst.
+👉 Live page: https://clear-access.pages.dev
 
 ---
 
-## Was ich einrichte
+## What this is
 
-- 🌐 Ein zentraler Einstieg für eure Tools  
-- 🧭 Ein Firmen‑Login (Microsoft, Google, oder on‑prem)  
-- 🛡️ Klare Regeln, wer welches Tool erreichen darf  
-- 🧱 Optional: zusätzlicher Netzwerkschutz  
+Most teams don’t have a clear access state.
 
-Eure Anwendungen bleiben unverändert.
+- 🔐 Every tool has its own login  
+- 🧩 Access grew over time  
+- ❓ It’s unclear who still has access to what  
+- 🐌 Offboarding is slow and error-prone  
 
----
-
-## Einfaches Prinzip
-
-> Zugriff wird zentral geregelt.  
-> Was innerhalb eines Tools passiert, bleibt im Tool.
+**clear-access** fixes the *access layer* — not the tools themselves.
 
 ---
 
-## Guter Fit wenn
+## What I set up
 
-- ✅ ihr mehrere Tools nutzt (self‑hosted und/oder SaaS)
-- ✅ ihr einen Firmen‑Login wollt
-- ✅ ihr wieder Klarheit über Zugänge wollt
-- ✅ ihr schnell Klarheit wollt
+- 🌐 One central entry point for your tools  
+- 🧭 One company login (Microsoft, Google, or on‑prem)  
+- 🛡️ Clear rules for who can reach which tool  
+- 🧱 Optional network-level protection  
 
-## Kein Fit wenn
+Your applications stay exactly as they are.
 
-- ❌ ihr „alles auf einmal aufräumen“ wollt
-- ❌ ihr ein großes IAM‑Programm sucht
-- ❌ ihr laufenden Betrieb erwartet
+---
+
+## A simple principle
+
+> Access is managed in one place.  
+> What happens inside each tool stays inside that tool.
+
+---
+
+## Good fit if
+
+- ✅ you use several tools (self-hosted and/or SaaS)
+- ✅ you want one company login
+- ✅ you want a clear overview of access again
+- ✅ you want clarity quickly
+
+## Not a fit if
+
+- ❌ you want to reorganize every system at once
+- ❌ you’re looking for a full IAM program
+- ❌ you expect ongoing operations
 
 ---
 
 ## Next step
 
-Ein kurzer Call reicht, um zu prüfen ob es passt.  
-Wenn ja: ein klar abgegrenztes Projekt.  
-Wenn nein: ein ehrliches „nein“.
+A short call is enough to see whether this fits.  
+If yes: a clearly scoped project.  
+If not: an honest “no”.
